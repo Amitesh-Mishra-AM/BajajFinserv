@@ -4,7 +4,7 @@ import bodyParser from "body-parser";
 const app = express();
 app.use(bodyParser.json());
 
-const FULL_NAME = "amitesh mishra"; // lowercase
+const FULL_NAME = "amitesh_mishra"; // lowercase
 const DOB = "06032004"; // ddmmyyyy
 const EMAIL = "amiteshmishraoff@gmail.com";
 const ROLL_NUMBER = "22BAI10038";
