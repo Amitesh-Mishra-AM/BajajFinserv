@@ -1,0 +1,25 @@
+{
+  "name": "bajajfinserv",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "homepage": "https://github.com/Amitesh-Mishra-AM/BajajFinserv#readme",
+  "bugs": {
+    "url": "https://github.com/Amitesh-Mishra-AM/BajajFinserv/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amitesh-Mishra-AM/BajajFinserv.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
