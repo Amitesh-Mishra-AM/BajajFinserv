@@ -55,11 +55,11 @@ app.post("/bfhl", (req, res) => {
           sum += num;
         }
       } else if (/^[a-zA-Z]+$/.test(item)) {
-        // It's an alphabet string
+        // for alphbets
         alphabets.push(item.toUpperCase());
         alphabetsConcat += item;
       } else {
-        // Special character
+        // for special chars
         special_characters.push(item);
       }
     });
